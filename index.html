@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Барбершоп «Борода» в Вельске — стрижки и уход за бородой</title>
+<meta name="description" content="Барбершоп «Борода» в Вельске: мужские стрижки от 1500 ₽, моделирование бороды, комплекс. Онлайн-запись, ул. Советская, 25.">
+<meta property="og:title" content="Барбершоп «Борода» в Вельске">
+<meta property="og:description" content="Стрижки и уход за бородой. Запись онлайн.">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HairSalon","name":"Борода","description":"Барбершоп в Вельске: мужские стрижки и уход за бородой","telephone":"+79000000000","priceRange":"900–2200 ₽","address":{"@type":"PostalAddress","streetAddress":"ул. Советская, 25","addressLocality":"Вельск","addressRegion":"Архангельская область","addressCountry":"RU"},"openingHours":"Mo-Su 10:00-21:00"}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#1c1917; --surface:#26221f; --line:#3d3731; --text:#ece5d8; --muted:#a89f92; --accent:#c2a46b; --err:#e0897a;
+  --serif:'Bitter',Georgia,'Times New Roman',serif; --sans:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+html{height:auto;scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px);background:var(--bg)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--text);font:400 17px/1.55 var(--sans);-webkit-text-size-adjust:100%}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+section{padding:64px 0;border-top:1px solid var(--line)}
+h1,h2,h3{font-family:var(--serif);margin:0;line-height:1.1}
+h2{font-size:clamp(28px,6vw,40px);font-weight:800;margin-bottom:28px}
+p{margin:0}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+.btn{display:inline-block;background:var(--accent);color:#1c1917;font:500 17px/1 var(--sans);border:0;border-radius:4px;padding:18px 32px;text-decoration:none;cursor:pointer;min-height:54px}
+.btn:hover{background:#d2b67f}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--line)}
+.btn.ghost:hover{border-color:var(--accent);background:transparent}
+
+header{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;height:56px}
+header b{font:800 20px var(--serif)}
+header a.tel{text-decoration:none;color:var(--muted);font-size:15px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:11}
+
+.hero{padding:72px 0 80px;border-top:0}
+.hero h1{font-size:clamp(64px,19vw,168px);font-weight:800;letter-spacing:-.02em;margin-bottom:24px}
+.hero p.lead{font-size:clamp(18px,3.4vw,24px);max-width:30ch;color:var(--muted);margin-bottom:36px}
+.hero .row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hero small{display:block;margin-top:28px;color:var(--muted);font-size:15px}
+
+.price{list-style:none;margin:0;padding:0}
+.price li{display:flex;align-items:baseline;gap:12px;padding:20px 0;border-bottom:1px solid var(--line)}
+.price li:first-child{border-top:1px solid var(--line)}
+.price .n{font:500 clamp(20px,4.5vw,26px)/1.2 var(--serif)}
+.price .d{display:block;font:400 15px/1.4 var(--sans);color:var(--muted);margin-top:4px}
+.price .dots{flex:1;border-bottom:1px dotted var(--muted);transform:translateY(-6px);min-width:16px}
+.price .p{font:800 clamp(20px,4.5vw,26px) var(--serif);white-space:nowrap}
+
+.masters{display:grid;gap:32px;grid-template-columns:1fr}
+.master figure{margin:0 0 16px;aspect-ratio:4/5;background:var(--surface);border:1px solid var(--line);border-radius:4px;display:grid;place-items:center;overflow:hidden}
+.master svg{width:56%;height:auto;color:var(--line)}
+.master h3{font-size:24px;font-weight:800;margin-bottom:4px}
+.master p{color:var(--muted)}
+
+form{display:grid;gap:20px;max-width:520px}
+label{display:block;font-weight:500;margin-bottom:8px}
+input,select{width:100%;min-height:54px;background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:4px;padding:0 16px;font:400 17px var(--sans);appearance:none;-webkit-appearance:none}
+select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='8'%3E%3Cpath d='M1 1l6 6 6-6' fill='none' stroke='%23a89f92' stroke-width='2'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;padding-right:44px}
+input:focus,select:focus{border-color:var(--accent);outline:none}
+input[aria-invalid="true"],select[aria-invalid="true"]{border-color:var(--err)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.err{color:var(--err);font-size:14px;margin-top:6px;min-height:0}
+.ok{display:none;border:1px solid var(--accent);border-radius:4px;padding:20px;max-width:520px}
+.ok.show{display:block}
+.ok b{font:800 22px var(--serif);display:block;margin-bottom:6px}
+
+.contact{display:grid;gap:32px}
+.contact dl{margin:0}
+.contact dt{color:var(--muted);font-size:15px;margin-top:20px}
+.contact dt:first-child{margin-top:0}
+.contact dd{margin:2px 0 0;font-size:19px}
+.map{background:var(--surface);border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.map svg{display:block;width:100%;height:auto}
+footer{padding:28px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+
+@media(min-width:720px){
+  .masters{grid-template-columns:1fr 1fr}
+  .contact{grid-template-columns:1fr 1.3fr;align-items:start}
+  section{padding:96px 0}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <b>Борода</b>
+    <a class="tel" href="tel:+79000000000">+7 (900) 000-00-00</a>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <h1>Борода</h1>
+    <p class="lead">Барбершоп в центре Вельска. Стрижки и уход за бородой.</p>
+    <div class="row"><a class="btn" href="#book">Записаться</a><a class="btn ghost" href="#price">Цены</a></div>
+    <small>Ежедневно с 10:00 до 21:00</small>
+  </div>
+</section>
+
+<section id="price">
+  <div class="wrap">
+    <h2>Услуги и цены</h2>
+    <ul class="price">
+      <li><span><span class="n">Стрижка</span><span class="d">Мытьё головы, стрижка, укладка</span></span><span class="dots"></span><span class="p">1 500 ₽</span></li>
+      <li><span><span class="n">Борода</span><span class="d">Моделирование и горячее полотенце</span></span><span class="dots"></span><span class="p">900 ₽</span></li>
+      <li><span><span class="n">Комплекс</span><span class="d">Стрижка и борода за один визит</span></span><span class="dots"></span><span class="p">2 200 ₽</span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="masters">
+  <div class="wrap">
+    <h2>Мастера</h2>
+    <div class="masters">
+      <article class="master">
+        <figure aria-label="Фото мастера Рината (заглушка)">
+          <svg viewBox="0 0 100 120" fill="currentColor" aria-hidden="true"><circle cx="50" cy="38" r="22"/><path d="M8 120c0-26 18-42 42-42s42 16 42 42z"/></svg>
+        </figure>
+        <h3>Ринат</h3>
+        <p>Стрижки и фейды. Работает с 2015 года.</p>
+      </article>
+      <article class="master">
+        <figure aria-label="Фото мастера Тимура (заглушка)">
+          <svg viewBox="0 0 100 120" fill="currentColor" aria-hidden="true"><circle cx="50" cy="38" r="22"/><path d="M8 120c0-26 18-42 42-42s42 16 42 42z"/></svg>
+        </figure>
+        <h3>Тимур</h3>
+        <p>Борода и классические стрижки. Работает с 2018 года.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="book">
+  <div class="wrap">
+    <h2>Запись</h2>
+    <form id="f" novalidate>
+      <div>
+        <label for="name">Имя</label>
+        <input id="name" name="name" autocomplete="given-name" required>
+        <div class="err" id="e-name"></div>
+      </div>
+      <div>
+        <label for="phone">Телефон</label>
+        <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+7" required>
+        <div class="err" id="e-phone"></div>
+      </div>
+      <div>
+        <label for="service">Услуга</label>
+        <select id="service" name="service" required>
+          <option value="">Выберите услугу</option>
+          <option>Стрижка — 1 500 ₽</option>
+          <option>Борода — 900 ₽</option>
+          <option>Комплекс — 2 200 ₽</option>
+        </select>
+        <div class="err" id="e-service"></div>
+      </div>
+      <div>
+        <label for="date">Время</label>
+        <div class="two">
+          <input id="date" name="date" type="date" required aria-label="Дата">
+          <select id="time" name="time" required aria-label="Время"><option value="">Время</option></select>
+        </div>
+        <div class="err" id="e-time"></div>
+      </div>
+      <input name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;opacity:0;height:0;min-height:0">
+      <button class="btn" type="submit">Записаться</button>
+    </form>
+    <div class="ok" id="ok" role="status" tabindex="-1"></div>
+  </div>
+</section>
+
+<section id="contacts">
+  <div class="wrap contact">
+    <div>
+      <h2>Как нас найти</h2>
+      <dl>
+        <dt>Адрес</dt><dd>Вельск, ул. Советская, 25</dd>
+        <dt>Часы работы</dt><dd>Ежедневно, 10:00–21:00</dd>
+        <dt>Телефон</dt><dd><a href="tel:+79000000000">+7 (900) 000-00-00</a></dd>
+      </dl>
+      <p style="margin-top:28px"><a class="btn ghost" href="https://yandex.ru/maps/?text=%D0%92%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%2C%20%D1%83%D0%BB.%20%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F%2C%2025" target="_blank" rel="noopener">Открыть в Яндекс Картах</a></p>
+    </div>
+    <div class="map">
+      <svg viewBox="0 0 400 320" role="img" aria-label="Схема проезда: барбершоп на улице Советской">
+        <rect width="400" height="320" fill="#26221f"/>
+        <g stroke="#3d3731" stroke-width="10" fill="none" stroke-linecap="round">
+          <path d="M-10 90 L410 60"/><path d="M-10 250 L410 270"/>
+          <path d="M90 -10 L110 330"/><path d="M300 -10 L280 330"/>
+        </g>
+        <path d="M-10 170 L410 150" stroke="#5a5148" stroke-width="16" fill="none"/>
+        <g fill="#a89f92" font-family="Inter,sans-serif" font-size="13">
+          <text x="150" y="146" transform="rotate(-3 150 146)">ул. Советская</text>
+          <text x="118" y="50" font-size="11" opacity=".7">ул. Гагарина</text>
+        </g>
+        <g transform="translate(200 160)">
+          <path d="M0 0c-16-20-22-30-22-42a22 22 0 0 1 44 0c0 12-6 22-22 42z" fill="#c2a46b"/>
+          <circle cy="-42" r="8" fill="#1c1917"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">© Борода, Вельск</div></footer>
+
+<script>
+(function(){
+  // Адрес вашего Cloudflare Worker — вставьте после деплоя
+  var ENDPOINT='https://borodа-zayavki.YOUR-NAME.workers.dev';
+  var f=document.getElementById('f'),ok=document.getElementById('ok');
+  var time=document.getElementById('time'),date=document.getElementById('date');
+  for(var h=10;h<=20;h++){var o=document.createElement('option');o.textContent=h+':00';time.appendChild(o);}
+  var d=new Date();d.setMinutes(d.getMinutes()-d.getTimezoneOffset());
+  var today=d.toISOString().slice(0,10);date.min=today;date.value=today;
+
+  function setErr(id,msg){
+    var el=document.getElementById('e-'+id);if(el)el.textContent=msg||'';
+    var inp=document.getElementById(id);if(inp)inp.setAttribute('aria-invalid',msg?'true':'false');
+  }
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var name=f.name.value.trim(),phone=f.phone.value.trim(),svc=f.service.value;
+    var digits=phone.replace(/\D/g,'');
+    var bad=false;
+    setErr('name',name?'':'Введите имя');bad=bad||!name;
+    var pOk=digits.length>=10&&digits.length<=12;
+    setErr('phone',pOk?'':'Введите телефон полностью, например +7 900 000-00-00');bad=bad||!pOk;
+    setErr('service',svc?'':'Выберите услугу');bad=bad||!svc;
+    var tOk=date.value&&time.value;
+    setErr('time',tOk?'':'Выберите дату и время');bad=bad||!tOk;
+    if(bad){var first=f.querySelector('[aria-invalid="true"]');if(first)first.focus();return;}
+    var parts=date.value.split('-');
+    var svcName=svc.split(' — ')[0];
+    var when=parts[2]+'.'+parts[1]+'.'+parts[0]+' в '+time.value;
+    var btn=f.querySelector('button[type=submit]');btn.disabled=true;btn.textContent='Отправляем…';
+    function show(title,text,link){
+      ok.innerHTML='';
+      var b=document.createElement('b');b.textContent=title;
+      var p=document.createElement('p');p.textContent=text;
+      ok.appendChild(b);ok.appendChild(p);
+      if(link){var a=document.createElement('a');a.className='btn';a.href=link;a.target='_blank';a.rel='noopener';a.textContent='Написать в Telegram';a.style.marginTop='16px';ok.appendChild(a);}
+      ok.className='ok show';f.style.display='none';ok.focus();ok.scrollIntoView({block:'center'});
+    }
+    var payload={name:name,phone:phone,service:svc,when:when,website:f.website.value};
+    var req=/YOUR-NAME/.test(ENDPOINT)?Promise.reject(new Error('no endpoint')):
+      fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
+      .then(function(r){if(!r.ok)throw new Error(r.status);});
+    req.then(function(){
+      show('Заявка отправлена, '+name,svcName+', '+when+'. Мастер свяжется с вами по номеру '+phone+'.');
+    }).catch(function(){
+      var msg='Здравствуйте! Хочу записаться в «Борода».\nИмя: '+name+'\nТелефон: '+phone+'\nУслуга: '+svc+'\nКогда: '+when;
+      show('Не удалось отправить заявку','Напишите нам в Telegram или позвоните +7 (900) 000-00-00.','https://t.me/qantro25?text='+encodeURIComponent(msg));
+    });
+  });
+})();
+</script>
+</body>
+</html>
